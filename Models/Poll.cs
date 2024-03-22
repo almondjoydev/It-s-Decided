@@ -7,6 +7,7 @@ public class Poll
     public string CustomDescription {get;set;}
     public string PIN {get;set;}
     public int PollTypeId {get;set;}
+    public PollType PollType {get;set;}
     public bool PublicResults {get;set;} 
     public int TotalSubmission {get;set;} = 0;
 
